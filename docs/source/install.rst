@@ -589,7 +589,7 @@ Installing dependencies and compiling package
                 
                 conda install pyqt=4
                 conda install lxml
-                pyrcc4 -py3 -o resources.py resources.qrc
+                Pyrcc5 -o resources.py resources.qrc  //(anaconda中自带pyqt5,应该使用此行代码)
             
         .. tab:: Linux 
 
